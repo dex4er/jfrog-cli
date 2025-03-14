@@ -6,6 +6,9 @@ replace (
 	// Should not be updated to 0.2.6 due to a bug (https://github.com/jfrog/jfrog-cli-core/pull/372)
 	github.com/c-bata/go-prompt => github.com/c-bata/go-prompt v0.2.5
 
+	// github.com/jfrog/jfrog-cli-core/v2 => /Users/PROSZAT/Sources/jfrog/jfrog-cli-core
+	github.com/jfrog/jfrog-cli-core/v2 => github.com/dex4er/jfrog-cli-core/v2 v2.0.0-20250314211153-a7ee390fe8aa
+
 	// Should not be updated to 0.2.0-beta.2 due to a bug (https://github.com/jfrog/jfrog-cli-core/pull/372)
 	github.com/pkg/term => github.com/pkg/term v1.1.0
 )
@@ -19,7 +22,7 @@ require (
 	github.com/jfrog/build-info-go v1.10.10
 	github.com/jfrog/gofrog v1.7.6
 	github.com/jfrog/jfrog-cli-artifactory v0.2.0
-	github.com/jfrog/jfrog-cli-core/v2 v2.58.1
+	// github.com/jfrog/jfrog-cli-core/v2 v2.58.1
 	github.com/jfrog/jfrog-cli-platform-services v1.7.0
 	github.com/jfrog/jfrog-cli-security v1.16.0
 	github.com/jfrog/jfrog-client-go v1.51.0
@@ -32,6 +35,8 @@ require (
 	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+require github.com/jfrog/jfrog-cli-core/v2 v2.58.1
 
 require (
 	dario.cat/mergo v1.0.1 // indirect
@@ -190,8 +195,6 @@ require (
 )
 
 //replace github.com/jfrog/jfrog-cli-artifactory => github.com/jfrog/jfrog-cli-artifactory v0.1.13-0.20250221101554-05889536ad05
-
-//replace github.com/jfrog/jfrog-cli-core/v2 => github.com/jfrog/jfrog-cli-core/v2 v2.31.1-0.20250226094621-9317a4bcdfc4
 
 //replace github.com/jfrog/build-info-go => github.com/jfrog/build-info-go v1.8.9-0.20250226102210-d57860372195
 
