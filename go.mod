@@ -7,7 +7,7 @@ replace (
 	github.com/c-bata/go-prompt => github.com/c-bata/go-prompt v0.2.5
 
 	// github.com/jfrog/jfrog-cli-core/v2 => /Users/PROSZAT/Sources/jfrog/jfrog-cli-core
-	github.com/jfrog/jfrog-cli-core/v2 => github.com/dex4er/jfrog-cli-core/v2 v2.0.0-20250314211153-a7ee390fe8aa
+	github.com/jfrog/jfrog-cli-core/v2 => github.com/dex4er/jfrog-cli-core/v2 v2.0.0-20250317121226-33681c903d7b
 
 	// Should not be updated to 0.2.0-beta.2 due to a bug (https://github.com/jfrog/jfrog-cli-core/pull/372)
 	github.com/pkg/term => github.com/pkg/term v1.1.0
